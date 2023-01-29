@@ -39,15 +39,31 @@ li ul {
     padding-left: 0;
 }
 
-.contenido-ed {
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: rgb(127, 109, 131);
+}
+
+.contenedor-ed {
     display: inline;
 }
 
+.contenido-ed {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .banner {
+    border-left: 1px solid;
     width: 40%;
     height: auto;
     opacity: 50%;
     float: right;
+    filter: blur(100px)
 }
 
 .banner-img {
@@ -57,7 +73,10 @@ li ul {
 .contenido-banner {
     height: 100%;
     width: 60%;
-    float: left;
+}
+
+.contenido-banner h1 {
+    font-size: 3rem;
 }
 
 header li {
@@ -67,4 +86,11 @@ header li {
 header li ul {
     display: inline-block;
     margin: 0;
+}
+
+.contenedor {
+    display: flex;
+   /** justify-content: center; */
+    flex-wrap: wrap;
+    align-items: center;
 }
