@@ -3,6 +3,7 @@
 }
 body{
     background-color:#F5F5EF;
+    align-items: baseline;
 }
 
 .cabecera h2 {
@@ -78,6 +79,12 @@ a:hover {
 .contenido-banner h1 {
     font-size: 3rem;
 }
+    @media (max-width: 520px) {
+        .contenido-banner h1 {
+            font-size: 1.5rem;
+        }
+    }
+
 
 header li {
     display: inline-block;
@@ -89,8 +96,17 @@ header li ul {
 }
 
 .contenedor {
+    height: 8rem;
+    width: 8rem;
+    justify-content: center;
     display: flex;
-   /** justify-content: center; */
     flex-wrap: wrap;
     align-items: center;
 }
+
+.habilidades{
+   margin-left: 20px;
+   text-align: center;
+}
+
+
