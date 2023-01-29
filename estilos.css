@@ -1,0 +1,70 @@
+* {
+    font-family: 'Tenor Sans', sans-serif;
+}
+body{
+    background-color:#F5F5EF;
+}
+
+.cabecera h2 {
+    display: inline;
+    font-size: 15px;
+   
+}
+/**
+aside div {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+*/
+
+.linea_cabecera {
+    height: 1px;
+}
+
+.cabecera h3 {
+    display: inline;
+    float: right;
+    font-size: 10px;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+li ul {
+    padding-left: 0;
+}
+
+.contenido-ed {
+    display: inline;
+}
+
+.banner {
+    width: 40%;
+    height: auto;
+    opacity: 50%;
+    float: right;
+}
+
+.banner-img {
+    border-radius: 5%;
+}
+
+.contenido-banner {
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+
+header li {
+    display: inline-block;
+}
+
+header li ul {
+    display: inline-block;
+    margin: 0;
+}
