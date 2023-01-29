@@ -9,7 +9,7 @@
     <!-- Link para incorporar fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Tenor+Sans&display=swap" rel="stylesheet">
     <!-- Link para incorporar estilos-->
     <link rel="stylesheet" href="estilos.css">
     <!-- Link para incorporar íconos-->
@@ -18,9 +18,9 @@
 <body>
     <header class="cabecera">
         <li>
-            <ul><i class="fa-brands fa-instagram"></i></ul>
-            <ul><i class="fa-brands fa-github"></i></ul>
-            <ul><i class="fa-brands fa-linkedin"></i></ul>
+            <ul><a href="https://www.instagram.com/luciafeliu_/"><i class="fa-brands fa-instagram"></i></a></ul>
+            <ul><a href="https://github.com/Luciafeliu"><i class="fa-brands fa-github"></i></a></ul>
+            <ul><a href="https://www.linkedin.com/in/luc%C3%ADa-feli%C3%BA-7a2a0a219/"><i class="fa-brands fa-linkedin"></i></a></ul>
         </li>
         <h3>Desarrolladora Web Fullstack Junior.</h3>
         <hr class="linea_cabecera">
@@ -30,18 +30,20 @@
            <img src="./resources/banner-fondo.png" alt="Imagen de ejemplo." class="banner-img">
         </div>
         <div class="contenido-banner">
-            <h1><b>LUCÍA FELIÚ</b> <br> FULL STACK DEVELOPER JUNIOR</h1>
+            <h1><b>LUCÍA FELIÚ</b> <br> FULL STACK DEVELOPER JUNIOR.</h1>
             <p>Actualmente estudiando Arquitectura en la Universidad Nacional de Córdoba. Soy estudiante del curso de programación #YoProgramo, y egresada del curso #SéProgramar.</p>
             <hr>
         </div>
-        <div class="contenido-ed">
+        <div class="contenedor-ed">
             <h1>EDUCACIÓN</h1>
-            <li>
+            <li class="contenido-ed">
                 <ul><b>2014/2020 - Secundario completo.</b> Egresada del Instituto Nuestra Señora de las Mercedes (Bachiller en Comunicación).</ul>
                 <ul><b>2020/Actualidad - En curso.</b> Arquitectura, Urbanismo y Diseño, en la Universidad Nacional de Córdoba.</ul>
                 <ul><b>2021 - Finalizado.</b> Curso del Argentina Programa, "#SéProgramar".</ul>
                 <ul><b>2022/Actualidad - En curso.</b> Curso del Argentina Programa, "#YoProgramo".</ul>
                 <ul><b>2023 - Finalizado</b> Curso del Argentina Programa 4.0, "Primeros pasos del desarrollo Front-End", dictado por Ticmas.</ul>
+                <ul><b>2023 - Finalizado</b> Curso de inglés para Argentina Programa, nivel 4.</ul>
+
             </li>
             <hr>
         </div>
@@ -49,37 +51,39 @@
     <section>
         <div class="contenido-hab">
             <h1>HABILIDADES</h1>
-            
+            <div class="contenedor">
                 <div class="progress">
-                <p>HTML5</p>
-                    <progress id="html5" max="100" value="91"></progress>
-                    <span></span>
+                    <progress id="progresolineal-html" max="100" value="91" style="color: rgba(225,225,225,0.5);"></progress>
+                    <br>
+                    <span>HTML5</span>
                 </div>
+
+                <br>
+
                 <div class="progress">
-                    <p>CSS</p>
                         <progress id="css" max="100" value="72"></progress>
-                        <span></span>
+                        <br>
+                        <span>CSS</span>
                 </div>
-                    
+
+                <br>
+
                 <div class="clear"></div>
                     <div class="progress">
-                    <p>JAVASCRIPT</p>
                         <progress id="javascript" max="100" value="86"></progress>
-                        <span></span>
+                        <br>
+                        <span>JavaScript</span>
                 </div>
+
+                <br>
                 
                 <div class="progress">
-                    <p>Python</p>
-                        <progress id="python" max="100" value="52"></progress>
-                        <span></span>
+                        <progress id="ingles" max="100" value="95"></progress>
+                        <br>
+                        <span>Idiomas - Inglés</span>
                 </div>
                 <div class="clear"></div>
-                        
-                <div class="progress">
-                    <p>Javascript</p>
-                        <progress id="javascript" max="100" value="79"></progress>
-                        <span></span>
-                </div>
+            </div>
             <hr>
         </div>
     </section>
@@ -89,7 +93,7 @@
         
     </section>
     
-    <script src="./javascript/javascript.js"></script>
+    <script src="./javascript/app.js"></script>
     <footer></footer>
 </body>
 </html>
