@@ -2,25 +2,40 @@
     font-family: 'Tenor Sans', sans-serif;
 }
 body{
-    background-color:#F5F5EF;
-    align-items: baseline;
+    overflow-x: hidden;
+    background-image: url('./resources/banner-fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-color: #F5F5EF;
+}
+/**
+.foto-persona {
+    backdrop-filter: blur(50px) ;
+    width: auto;
+    height: 120px;
+    border-radius: 100%;
+    border: rgb(65, 64, 64);
+    border-style:groove;
+    float: right;
+    filter: grayscale(100%);
+}
+*/
+.contenido-banner p {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+hr {
+    border-color: rgba(78, 78, 78, 0.61);
+    width: 100%;
 }
 
 .cabecera h2 {
     display: inline;
     font-size: 15px;
    
-}
-/**
-aside div {
-    height: 100%;
-    width: 50%;
-    float: right;
-}
-*/
-
-.linea_cabecera {
-    height: 1px;
 }
 
 .cabecera h3 {
@@ -50,30 +65,10 @@ a:hover {
     color: rgb(127, 109, 131);
 }
 
-.contenedor-ed {
-    display: inline;
-}
-
 .contenido-ed {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.banner {
-    border-left: 1px solid;
-    width: 40%;
-    height: auto;
-    opacity: 50%;
-    float: right;
-    filter: blur(100px)
-}
-
-.banner-img {
-    border-radius: 5%;
-}
-
-.contenido-banner {
-    height: 100%;
-    width: 60%;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    text-align: center;
 }
 
 .contenido-banner h1 {
@@ -95,18 +90,5 @@ header li ul {
     margin: 0;
 }
 
-.contenedor {
-    height: 8rem;
-    width: 8rem;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.habilidades{
-   margin-left: 20px;
-   text-align: center;
-}
 
 
